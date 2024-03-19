@@ -1,0 +1,177 @@
+/* Estilo para el cuerpo de la página */
+body{
+    background-color: #B7C9F2; /* Color de fondo del cuerpo de la página */
+    margin: 0; /* Sin margen */
+    color:#F9F07A; /* Color del texto */
+    font-family: arial; /* Fuente de la letra */
+}
+
+/* Estilo para el encabezado */
+
+header {
+    margin-top: 0; /* Sin margen superior */
+    background-color: #9195F6; /* Color de fondo del encabezado */
+    display: flex;  /* Mostrar como flex */
+    justify-content: center; /* Alinear contenido al centro horizontalmente */
+    align-items: center; /* Alinear contenido al centro verticalmente */
+    height: 80px; /* Altura de 80px */
+    width: 100%; /* Ancho del 100% del contenedor */
+}
+
+/* Estilos para los elementos dentro del encabezado */
+header #log {
+      height: 60px; /* Altura de 60px para el elemento con id "log" */
+}
+header #conf {
+    height: 30px; /* Altura de 30px para el elemento con id "conf" */
+}
+header a{
+    text-decoration: none; /* Sin decoración de texto para los enlaces */
+    color: #F9F07A; /* Color del texto de los enlaces */
+    margin: 20px; /* Margen de 20px para los enlaces */
+}
+
+/* Estilo para el contenedor principal */
+.container{
+    height: 100%; /* Altura del 100% del contenedor */
+    width: 100%; /* Ancho del 100% del contenedor */
+    justify-content: center; /* Alinear contenido al centro horizontalmente */
+    align-items: center;  /* Alinear contenido al centro verticalmente */ 
+    background-attachment: fixed; /* Imagen de fondo fija */
+    text-align: center; /* Alinear texto al centro */
+    color: #9195F6; /* Color del texto */
+}
+
+/* Estilos para los elementos dentro del contenedor */
+.container span{
+    border-radius: 50%; /* Borde redondeado al 50% */
+    height: 150px; /* Altura de 150px */
+    width: 150px; /* Ancho de 150px */
+    display: inline-block; /* Mostrar como elemento en línea */
+    margin: 20px; /* Margen de 20px */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+.container img{
+    height: 100%; /* Altura del 100% */
+    width: 100%; /* Ancho del 100% */
+}
+.container p{
+    background-color: #F9F07A; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Estilo para el elemento con id "divOp" */
+#divOp{
+    margin-top: 60px; /* Margen superior de 60px */
+    text-align: center; /* Alinear texto al centro */
+    display: inline-block; /* Mostrar como elemento en línea */
+    height: 180px; /* Altura de 180px */
+    width: 100%; /* Ancho del 100% */
+}
+
+/* Estilo para los elementos con clase "elemento" */
+.elemento{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 20px; /* Margen de 20px */
+    text-align: center; /* Alinear texto al centro */
+    border-radius: 10px; /* Borde redondeado */
+    height: 80px; /* Altura de 80px */
+    width: 33%; /* Ancho del 33% del contenedor padre */
+    background-color: #F9F07A; /* Color de fondo */
+    color: #9195F6; /* Color del texto */
+    display: inline-flex; /* Mostrar como flex en línea */
+    justify-items: center; /* Alinear contenido al centro horizontalmente */
+    align-items: center; /* Alinear contenido al centro verticalmente */ 
+}
+
+/* Estilo para elementos select */
+.elemento select {
+    text-align-last: center; /* Alinea el texto del elemento select al centro */
+    background-color: transparent;/* Fondo transparente */
+    height: 100%;/* Altura del 100% del contenedor */
+    width: calc(100% - 50px);/* Ancho del 100% del contenedor menos 50px */
+    border: none;/* Sin borde */
+    color: #9195F6;/* Color del texto */
+    outline: none;/* Sin contorno */
+    font-size: medium;/* Tamaño de fuente medio */
+
+}
+
+/* Estilo para las opciones dentro del elemento select */
+.elemento select option {
+    border-radius: 10px; /* Borde redondeado */
+    background-color: #9195F6; /* Color de fondo */
+    color: #F9F07A; /* Color del texto */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para el elemento con id "texto" */
+#texto {
+    height: 30px; /* Altura */
+    width: 100px; /* Ancho */
+    position: relative; /* Posicionamiento relativo */
+    top: -60px; /* Desplazamiento hacia arriba -60px */
+    display: flex; /* Mostrar como flex */
+    flex-direction: column; /* Dirección de la columna */
+    background-color: #F9F07A; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    text-align: center; /* Alineación del texto al centro */
+    justify-content: center; /* Alinear contenido al centro */
+    margin: 0 auto; /* Margen auto */
+}
+
+/* Estilo para la línea */
+.linea{
+    position: relative; /* Posicionamiento relativo */
+    background-color:#F9F07A; /* Color de fondo */
+    height: 2px; /* Altura */
+    width: 100%; /* Ancho del 100% del contenedor */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #FB88B4; /* Color de fondo */
+    color: #F9F07A; /* Color del texto */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Alineación del texto al centro */
+    height: 80px; /* Altura */
+    margin-bottom: 0; /* Sin margen inferior */
+    display: flex; /* Mostrar como flex */
+    justify-content: center; /* Alinear contenido al centro */
+    align-items: center; /* Alinear elementos al centro */
+}
+
+/* Estilo para el texto dentro del footer */
+footer p{
+    text-decoration: none; /* Sin decoración de texto */
+    color: #F9F07A; /* Color del texto */
+    margin: 20px; /* Margen */
+}
+
+/* Estilo para la imagen dentro del footer */
+footer img{
+    height: 100%; /* Altura del 100% */
+}
+
+/* Estilo para los enlaces dentro del footer */
+footer a{
+    margin: 20px; /* Margen */
+    height: 30px; /* Altura */
+    width: 30px; /* Ancho */
+}
+
+/* Estilo para el elemento con id "vertical" */
+#vertical{
+    background-color: #F9F07A; /* Color de fondo */
+    height: 75%; /* Altura del 75% del contenedor */
+    width: 2px; /* Ancho */
+}
+#texto:hover{
+    cursor:pointer;
+}
+img:hover{
+    cursor: pointer;
+}
